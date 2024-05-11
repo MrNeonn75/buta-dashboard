@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box">
+                <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Home</a></li>
+                        <li class="breadcrumb-item active">Members</li>
+                    </ol>
+                </div>
+                <h4 class="page-title">Members</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Members</h1>
+        
+        <p>All the employees</p>
+        
+        <div id="toolbar">
+                <select class="form-control">
+                        <option value="">Export Basic</option>
+                        <option value="all">Export All</option>
+                        <option value="selected">Export Selected</option>
+                </select>
+        </div>
+        
+        <table id="table" 
+                        data-toggle="table"
+                        data-search="true"
+                        data-filter-control="true" 
+                        data-show-export="true"
+                        data-click-to-select="true"
+                        data-toolbar="#toolbar"
+                class="table-responsive">
+            <thead>
+                <tr>
+                    <th data-field="state" data-checkbox="true"></th>
+                    <th data-field="prenom" data-filter-control="input" data-sortable="true">Name</th>
+                    <th data-field="sex" data-filter-control="input" data-sortable="true">Sex</th>
+                    <th data-field="age" data-filter-control="input" data-sortable="true">Age</th>
+                    <th data-field="university" data-filter-control="input" data-sortable="true">University</th>
+                    <th data-field="speciality" data-filter-control="input" data-sortable="true">Speciality</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for element in queryset %}
+                <tr>
+                    <td class="bs-checkbox "><input data-index="{{ element.id }}" name="btSelectItem" type="checkbox"></td>
+                    <td>{{ element.name }} {{ element.surname }}</td>
+                    <td>{{ element.sex }}</td>
+                    <td>{{ element.age }}</td>
+                    <td>{{ element.university }}</td>
+                    <td>{{ element.speciality }}</td>
+                </tr>
+                {% endfor %}
+                
+                
+            </tbody>
+        </table>
+        </div>
+
+</div>
+<!-- end container-fluid -->
+{% endblock content %}

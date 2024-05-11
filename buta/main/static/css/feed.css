@@ -1,0 +1,149 @@
+/* FEED */
+:root {
+	--Red: hsl(1, 90%, 64%);
+	--Blue: hsl(219, 85%, 26%);
+  
+	--White: hsl(0, 0%, 100%);
+	--Very_light_grayish_blue: hsl(210, 60%, 98%);
+	--Light_grayish_blue_1: hsl(211, 68%, 94%);
+	--Light_grayish_blue_2: hsl(205, 33%, 90%);
+	--Grayish_blue: hsl(219, 14%, 63%);
+	--Dark_grayish_blue: hsl(219, 12%, 42%);
+	--Very_dark_blue: hsl(224, 21%, 14%);
+  
+	--font: "Plus Jakarta Sans", sans-serif;
+  }
+
+  .notific-container {
+	width: 80%;
+	max-width: 100rem;
+	margin: auto;
+  }
+  .header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+  }
+  .Main-heading {
+	display: flex;
+	gap: 1rem;
+	align-items: end;
+  }
+  .unread {
+	padding: 0.5rem 1.3rem;
+	background-color: var(--Blue);
+	color: var(--White);
+	border-radius: 0.5rem;
+	font-size: 1.4rem;
+  }
+  .notifications {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+  }
+  .notifi {
+	display: flex;
+	gap: 1.5rem;
+	background-color: var(--Light_grayish_blue_1);
+	border-radius: 0.8rem;
+	padding: 1.5rem;
+	cursor: pointer;
+	position: relative;
+  }
+  .profile-image {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 50%;
+  }
+  .text {
+	font-size: 1.2rem;
+	color: var(--Dark_grayish_blue);
+  }
+
+  .child-text {
+    font-size: 1rem;
+  }
+
+  .time {
+	font-size: 1rem;
+	color: var(--Dark_grayish_blue);
+  }
+  b {
+	color: var(--Very_dark_blue);
+  }
+  .message {
+	margin-top: 0.5rem;
+	padding: 1rem;
+	border: 0.1rem solid var(--Grayish_blue);
+  }
+  .group {
+	color: var(--Blue);
+  }
+  .post {
+	color: var(--Dark_grayish_blue);
+  }
+  .checked{
+   background-color: var(--White);
+  }
+  .dot {
+	display: inline-block;
+	background-color: var(--Red);
+	color: var(--Red);
+	height: 0.8rem;
+	width: 0.8rem;
+	font-size: 1rem;
+	border-radius: 50%;
+	margin-left: 0.5rem;
+  }
+  .pic-post {
+	display: flex;
+	justify-content: space-between;
+	/*gap: 15rem;*/
+  }
+  .active {
+	color: white !important;
+	
+  }
+
+  /* .active-f {
+   background-color: rgb(209, 246, 255);
+  } */
+
+  .mark-all {
+	cursor: pointer;
+  }
+
+  .notifi p {
+    margin-bottom: 0.5rem;
+  }
+
+  @media (min-width: 768px){
+	.text{
+	  font-size: 1.3rem;
+	}
+	.profile-image {
+	height: 5.5rem;
+	width: 5.5rem;
+  }
+  }
+  @media (min-width: 960px){
+	.text{
+	  font-size: 1.5rem;
+	}
+	.profile-image {
+	display: block;
+	width: 100%;
+	height: 6rem;
+	width: 6rem;
+  
+  }
+  }
+
+  .pin-button {
+	position: absolute;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+  }

@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-12">
+          <div class="page-title-box">
+              <div class="page-title-right">
+                  <ol class="breadcrumb m-0">
+                      <li class="breadcrumb-item"><a href="javascript: void(0);">Home</a></li>
+                      <li class="breadcrumb-item active">Feed</li>
+                  </ol>
+              </div>
+              <h4 class="page-title">Feed</h4>
+          </div>
+      </div>
+  </div>
+
+  <div class="notific-container header-container">
+    <div class="Main-heading">
+      <h1>Feeds</h1>
+      <h2 class="unread">3</h2>
+    </div>
+    <p class="text mark-all">Mark all as read</p>
+  </div>
+
+
+  <section class="content-section">
+    <div class="notific-container content-container">
+      <div class="notifications">
+        {% for element in feed %}
+          <article class="notifi ">
+          <img
+            src="{{ element.user.profile_image.url }}"
+            alt=""
+            class="profile-image"
+          />
+          <div class="details">
+            <p class="text">
+              {{ element.title }}
+            </p>
+            <p class="child-text">{{ element.message }}</p>
+
+            <p class="time">{{ element.date }}</p>
+
+          </div>
+        </article>
+        {% endfor %}
+        
+        
+      </div>
+    </div>
+  </section>
+  <!-- end row -->
+
+</div>
+<!-- end container-fluid -->
+{% endblock content %}

@@ -1,0 +1,441 @@
+[
+    {
+     "Ad": "Yeganə",
+     "Soyad": "Mamişova",
+     "Yaş": 19,
+     "Cins": "Qadın",
+     "Universitet": "Xəzər",
+     "İxtisas": "Komputer Mühəndisliyi",
+     "Kurs": 2,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Ədalət",
+     "Soyad": "Həşimli",
+     "Yaş": 21,
+     "Cins": "Kişi",
+     "Universitet": "AzTU",
+     "İxtisas": "Komputer Mühəndisliyi",
+     "Kurs": 1,
+     "Bakalavr\/Magistr": "Magistr"
+    },
+    {
+     "Ad": "İsmayıl",
+     "Soyad": "Məmmədquliyev",
+     "Yaş": 20,
+     "Cins": "Kişi",
+     "Universitet": "UNEC",
+     "İxtisas": "Maliyyə",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Günel",
+     "Soyad": "Hümmətova",
+     "Yaş": 20,
+     "Cins": "Qadın",
+     "Universitet": "AZMİU",
+     "İxtisas": "İnformasiya Texnologiyaları",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Sevinc",
+     "Soyad": "Kərimova",
+     "Yaş": 22,
+     "Cins": "Qadın",
+     "Universitet": "BDU",
+     "İxtisas": "Beynəlxalq Münasibətlər",
+     "Kurs": "Məzun",
+     "Bakalavr\/Magistr": "Məzun"
+    },
+    {
+     "Ad": "Nihad",
+     "Soyad": "İsgəndərov",
+     "Yaş": 19,
+     "Cins": "Kişi",
+     "Universitet": "UNEC",
+     "İxtisas": "Maliyyə",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Səbinə",
+     "Soyad": "Əlizadə",
+     "Yaş": 21,
+     "Cins": "Qadın",
+     "Universitet": "BDU",
+     "İxtisas": "Komputer Elmləri",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Vəzifə",
+     "Soyad": "Quliyeva",
+     "Yaş": 21,
+     "Cins": "Qadın",
+     "Universitet": "ADNSU",
+     "İxtisas": "İnformasiya Təhlükəsizliyi",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Nuranə",
+     "Soyad": "Cəfərova",
+     "Yaş": 22,
+     "Cins": "Qadın",
+     "Universitet": "ADNSU",
+     "İxtisas": "Komputer Sistemləri və Şəbəkələri",
+     "Kurs": 1,
+     "Bakalavr\/Magistr": "Magistr"
+    },
+    {
+     "Ad": "Fəxriyyə",
+     "Soyad": "Bağırova",
+     "Yaş": 21,
+     "Cins": "Qadın",
+     "Universitet": "ADNSU",
+     "İxtisas": "İnformasiya Texnologiyaları",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Elşad",
+     "Soyad": "Zeynalov",
+     "Yaş": 21,
+     "Cins": "Kişi",
+     "Universitet": "UNEC",
+     "İxtisas": "Mühasibat",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Qulamalı",
+     "Soyad": "Zeynalabdinov",
+     "Yaş": 19,
+     "Cins": "Kişi",
+     "Universitet": "AZMİU",
+     "İxtisas": "İnformasiya Texnologiyaları",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Pəri",
+     "Soyad": "Məmmədova",
+     "Yaş": 19,
+     "Cins": "Qadın",
+     "Universitet": "UNEC",
+     "İxtisas": "Sənayə Mühəndisi",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Leyla",
+     "Soyad": "Hüseynova",
+     "Yaş": 21,
+     "Cins": "Qadın",
+     "Universitet": "ADNSU",
+     "İxtisas": "İnformasiya Texnologiyaları",
+     "Kurs": "Məzun",
+     "Bakalavr\/Magistr": "Məzun"
+    },
+    {
+     "Ad": "Nəriman",
+     "Soyad": "Əliyev",
+     "Yaş": 20,
+     "Cins": "Kişi",
+     "Universitet": "UNEC",
+     "İxtisas": "İnformasiya Təhlükəsizliyi",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Aysel",
+     "Soyad": "Məmmədova",
+     "Yaş": 21,
+     "Cins": "Qadın",
+     "Universitet": "BDU",
+     "İxtisas": "Komputer Elmləri",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Anar",
+     "Soyad": "Səfərov",
+     "Yaş": 20,
+     "Cins": "Kişi",
+     "Universitet": "AzTU",
+     "İxtisas": "Proseslərin Avtomatlaşdırılması Mühəndisi",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Tural",
+     "Soyad": "Bürcəliyev",
+     "Yaş": 18,
+     "Cins": "Kişi",
+     "Universitet": "ADPYDİA",
+     "İxtisas": "İqtisadiyyat",
+     "Kurs": 2,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Əkbər",
+     "Soyad": "Bunyadzadə",
+     "Yaş": 19,
+     "Cins": "Kişi",
+     "Universitet": "BANM",
+     "İxtisas": "Kimya Mühəndisliyi",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Duyğu",
+     "Soyad": "Əlizadə",
+     "Yaş": 22,
+     "Cins": "Qadın",
+     "Universitet": "BSU",
+     "İxtisas": "Jurnalistika",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Qənirə",
+     "Soyad": "Namazova",
+     "Yaş": 20,
+     "Cins": "Qadın",
+     "Universitet": "ADNSU",
+     "İxtisas": "İnformasiya Texnologiyaları",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Fidan",
+     "Soyad": "Haqverdiyeva",
+     "Yaş": 19,
+     "Cins": "Qadın",
+     "Universitet": "AZMİU",
+     "İxtisas": "İnformasiya Texnologiyaları",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Həsən",
+     "Soyad": "Camallı",
+     "Yaş": 18,
+     "Cins": "Kişi",
+     "Universitet": "ADPYDİA",
+     "İxtisas": "İqtisadiyyat",
+     "Kurs": 2,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Hümbət",
+     "Soyad": "Camalov",
+     "Yaş": 18,
+     "Cins": "Kişi",
+     "Universitet": "UFAZ",
+     "İxtisas": "Komputer Elmləri",
+     "Kurs": 1,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Günay",
+     "Soyad": "Həmzəyeva",
+     "Yaş": 21,
+     "Cins": "Qadın",
+     "Universitet": "ADPU",
+     "İxtisas": "Riyaziyyat və İnformatika Müəllimliyi",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Əziz",
+     "Soyad": "Zeynallı",
+     "Yaş": 20,
+     "Cins": "Kişi",
+     "Universitet": "UFAZ",
+     "İxtisas": "Komputer Elmləri",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Nigar",
+     "Soyad": "Həsənova",
+     "Yaş": 22,
+     "Cins": "Qadın",
+     "Universitet": "AzTU",
+     "Kurs": 1,
+     "Bakalavr\/Magistr": "Magistr"
+    },
+    {
+     "Ad": "Səbuhi",
+     "Soyad": "Məmmədova",
+     "Yaş": 21,
+     "Cins": "Kişi",
+     "Universitet": "ADPYDİA",
+     "İxtisas": "Komputer Elmləri",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Ayxan",
+     "Soyad": "Məmmədova",
+     "Yaş": 20,
+     "Cins": "Kişi",
+     "Universitet": "ADNSU",
+     "İxtisas": "Proseslərin Avtomatlaşdırılması Mühəndisliyi",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Elvin",
+     "Soyad": "Sərkərov",
+     "Yaş": 19,
+     "Cins": "Kişi",
+     "Universitet": "BDU",
+     "İxtisas": "Komputer Elmləri",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Həsən",
+     "Soyad": "Məmmədli",
+     "Yaş": 21,
+     "Cins": "Kişi",
+     "Universitet": "BMU",
+     "İxtisas": "Riyaziyyat və İnformatika müəllimliyi",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Günəş",
+     "Soyad": "Məmmədova",
+     "Yaş": 21,
+     "Cins": "Qadın",
+     "Universitet": "BDU",
+     "İxtisas": "Komputer Elmləri",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Səbinə",
+     "Soyad": "Həşimova",
+     "Yaş": 20,
+     "Cins": "Qadın",
+     "Universitet": "BDU",
+     "İxtisas": "İnformatika Müəllimliyi",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Murad",
+     "Soyad": "Abbasov",
+     "Yaş": 21,
+     "Cins": "Kişi",
+     "Universitet": "ADNSU",
+     "İxtisas": "Mexanika Mühəndisliyi",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Asim",
+     "Soyad": "Baxışlı",
+     "Yaş": 24,
+     "Cins": "Kişi",
+     "Universitet": "UNEC",
+     "İxtisas": "Beynəlxalq Ticarət və Lojistika",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Nərgiz",
+     "Soyad": "Qənbərli",
+     "Yaş": 20,
+     "Cins": "Qadın",
+     "Universitet": "UNEC",
+     "İxtisas": "Beynəlxalq Ticarət və Lojistika",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Nilüfər",
+     "Soyad": "Hüseynli",
+     "Yaş": 18,
+     "Cins": "Qadın",
+     "Universitet": "BMU",
+     "İxtisas": "İnşaat Mühəndisliyi",
+     "Kurs": 2,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Lalə",
+     "Soyad": "Ağayeva",
+     "Yaş": 21,
+     "Cins": "Qadın",
+     "Universitet": "BMU",
+     "İxtisas": "Kimya Mühəndisliyi",
+     "Kurs": "Məzun",
+     "Bakalavr\/Magistr": "Məzun"
+    },
+    {
+     "Ad": "İlkin",
+     "Soyad": "Babaşov",
+     "Yaş": 20,
+     "Cins": "Kişi",
+     "Universitet": "ADNSU",
+     "İxtisas": "Komputer Mühəndisliyi",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Turan",
+     "Soyad": "Novruzov",
+     "Yaş": 21,
+     "Cins": "Kişi",
+     "Universitet": "UNEC",
+     "İxtisas": "Mühasibat",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Şəfa",
+     "Soyad": "Paşazadə",
+     "Yaş": 22,
+     "Cins": "Qadın",
+     "Universitet": "ADA",
+     "İxtisas": "İqtisadiyyat",
+     "Kurs": 4,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Nicat",
+     "Soyad": "Səmədov",
+     "Yaş": 20,
+     "Cins": "Kişi",
+     "Universitet": "ADPYDİA",
+     "İxtisas": "Komputer Elmləri",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Əminə",
+     "Soyad": "Əliyeva",
+     "Yaş": 20,
+     "Cins": "Qadın",
+     "Universitet": "ADPU",
+     "İxtisas": "Sosial Psixoloji Xidmət",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    },
+    {
+     "Ad": "Kamran",
+     "Soyad": "Baxşəliyev",
+     "Yaş": 19,
+     "Cins": "Kişi",
+     "Universitet": "ADNSU",
+     "İxtisas": "Komputer Mühəndisliyi",
+     "Kurs": 3,
+     "Bakalavr\/Magistr": "Bakalavr"
+    }
+]

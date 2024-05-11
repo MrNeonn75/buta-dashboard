@@ -1,0 +1,166 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box">
+                <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard</li>
+                    </ol>
+                </div>
+                <h4 class="page-title">Dashboard</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-xl-3">
+            <div class="card-box tilebox-one">
+                <i class="icon-layers float-right m-0 h2 text-muted"></i>
+                <h6 class="text-muted text-uppercase mt-0">Orders</h6>
+                <h3 class="my-3" data-plugin="counterup">1,587</h3>
+                <span class="badge badge-success mr-1"> +11% </span> <span class="text-muted">From previous period</span>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+            <div class="card-box tilebox-one">
+                <i class="icon-paypal float-right m-0 h2 text-muted"></i>
+                <h6 class="text-muted text-uppercase mt-0">Revenue</h6>
+                <h3 class="my-3">$<span data-plugin="counterup">46,782</span></h3>
+                <span class="badge badge-danger mr-1"> -29% </span> <span class="text-muted">From previous period</span>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+            <div class="card-box tilebox-one">
+                <i class="icon-chart float-right m-0 h2 text-muted"></i>
+                <h6 class="text-muted text-uppercase mt-0">Average Price</h6>
+                <h3 class="my-3">$<span data-plugin="counterup">15.9</span></h3>
+                <span class="badge badge-pink mr-1"> 0% </span> <span class="text-muted">From previous period</span>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+            <div class="card-box tilebox-one">
+                <i class="icon-rocket float-right m-0 h2 text-muted"></i>
+                <h6 class="text-muted text-uppercase mt-0">Product Sold</h6>
+                <h3 class="my-3" data-plugin="counterup">1,890</h3>
+                <span class="badge badge-warning mr-1"> +89% </span> <span class="text-muted">Last year</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-xl-8">
+            <div class="card-box">
+                <h4 class="header-title mb-3">Job Statistics Relating Ages</h4>
+
+                <!-- space for adding -->
+
+                <div id="morris-bar-stacked" class="morris-chart" style="height: 320px;"></div>
+
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-4">
+            <div class="card-box">
+                <h4 class="header-title mb-3">Last votes</h4>
+
+            <!-- space for adding -->
+
+                <div id="morris-donut-example" class="morris-chart" style="height: 268px;"></div>
+
+                <div class="text-center">
+                    <ul class="list-inline chart-detail-list mb-0 mt-2">
+                        <li class="list-inline-item">
+                            <h6 class="text-info" style="color: #3db9dc;"><i class="mdi mdi-circle-outline mr-1"></i>IT</h6>
+                        </li>
+                        <li class="list-inline-item">
+                            <h6 class="text-success" style="color: #1bb99a;"><i class="mdi mdi-triangle-outline mr-1"></i>Accounting</h6>
+                        </li>
+                        <li class="list-inline-item">
+                            <h6 style="color: #b5835a;"><i class="mdi mdi-square-outline mr-1"></i>Marketing</h6>
+                        </li>
+                        <li class="list-inline-item">
+                            <h6 style="color: #ff7aa3;"><i class="mdi mdi-square-outline mr-1"></i>HR</h6>
+                        </li>
+                        <li class="list-inline-item">
+                            <h6 style="color: #f1b53d;"><i class="mdi mdi-square-outline mr-1"></i>Business Development</h6>
+                        </li>
+                        <li class="list-inline-item">
+                            <h6 style="color: #9261c6;"><i class="mdi mdi-square-outline mr-1"></i>Sales</h6>
+                        </li>
+                        <li class="list-inline-item">
+                            <h6 style="color: #d9dd81;"><i class="mdi mdi-square-outline mr-1"></i>Consultancy</h6>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">    
+        <div class="col-md-12">
+            <div class="card-box event-card-box">
+                <h4 class="header-title mb-3">Latest Events</h4>
+
+                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 359.2px;"><div class="inbox-widget slimscroll" style="max-height: 324px; overflow: hidden; width: auto; height: 359.2px;">
+                    <a href="#">
+                        <div class="inbox-item">
+                            <div class="inbox-item-img"><img src="../vertical/assets/images/envelope_letter_icon_900x600-01.png" class="rounded-circle" alt=""></div>
+                             <div class="event-div" >
+                                <p class="inbox-item-author">Chadengle</p>
+                                <p class="inbox-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quos itaque quidem minus ipsam adipisci obcaecati dolor, ipsum veritatis. Natus, eum atque. Voluptas magnam vitae aut laudantium, possimus cum illum?</p>
+                                <span class="event-date"><span>12</span>/<span>10</span>/<span>2024</span></span>
+                            </div>
+                        
+                            <p class="inbox-item-date">13:40 PM</p>
+                        
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="inbox-item">
+                            <div class="inbox-item-img"><img src="../vertical/assets/images/envelope_letter_icon_900x600-01.png" class="rounded-circle" alt=""></div>
+                            <div class="event-div" >
+                                <p class="inbox-item-author">Chadengle</p>
+                                <p class="inbox-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quos itaque quidem minus ipsam adipisci obcaecati dolor, ipsum veritatis. Natus, eum atque. Voluptas magnam vitae aut laudantium, possimus cum illum?</p>
+                                <span class="event-date"><span>12</span>/<span>10</span>/<span>2024</span></span>
+                            </div>
+                            <p class="inbox-item-date">13:34 PM</p>
+                        </div>
+                    </a>
+                    {% for element in events %}
+                      <a href="#">
+                        <div class="inbox-item">
+                            <div class="inbox-item-img"><img src="{% static 'images/envelope_letter_icon_900x600-01.png' %}" class="rounded-circle" alt=""></div>
+                            <div class="event-div" >
+                                <p class="inbox-item-author">{{ element.title }}</p>
+                                <p class="inbox-item-text">{{ element.article }}</p>
+                                <span>{{ element.date }}</span>
+                            </div>
+                            <p class="inbox-item-date">13:17 PM</p>
+                        </div>
+                    </a>  
+                    {% endfor %}
+                    
+
+                </div><div class="slimScrollBar" style="background: rgb(158, 165, 171); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 195.486px;"></div><div class="slimScrollRail" style="width: 5px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+
+            </div>
+        </div>
+</div>
+
+    <!-- All other codes from here -->
+    <!-- end row -->
+
+</div>
+<!-- end container-fluid -->
+{% endblock content %}
+
